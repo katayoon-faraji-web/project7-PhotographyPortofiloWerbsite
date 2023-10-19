@@ -2,7 +2,7 @@
 
 ![project6](https://github.com/katayoon-faraji-web/project6/assets/144775981/76e4bcad-43ac-493e-82db-9a2cd4d7abf6)
 
-- [Demo Project](https://katayoon-faraji-web.github.io/project6/)
+- [Demo Project]([https://katayoon-faraji-web.github.io/project6/](https://katayoon-faraji-web.github.io/project7/))
 
 - Developed by katayoon faraji
 
