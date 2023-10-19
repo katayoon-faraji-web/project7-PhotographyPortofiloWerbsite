@@ -1,0 +1,299 @@
+@media screen and (max-width: 768px) {
+  .head-top {
+    height: 80px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .head-top {
+    height: 100px;
+  }
+}
+.head-top .li-menu:hover {
+  border-bottom: 2px solid #212529;
+}
+.head-top .dropdownmenu:hover > ul {
+  visibility: visible;
+  opacity: 1;
+}
+.head-top .dropdownmenu > ul {
+  width: 300%;
+  height: auto;
+  z-index: 5;
+  visibility: hidden;
+  opacity: 0;
+  transition: 1s;
+}
+.head-top .dropdownmenu > ul > li {
+  background-color: whitesmoke;
+  width: 300%;
+  height: 40px;
+  border-bottom: 2px solid #212529;
+}
+.head-top .dropdownmenu > ul > li:hover {
+  background-color: rgba(33, 37, 41, 0.3254901961);
+}
+.head-top .dropdownmenu > ul > li > a {
+  width: 100%;
+  height: 100%;
+}
+.head-top > div {
+  overflow: visible;
+}
+.head-top > div > figure {
+  width: 400px;
+  overflow: hidden;
+}
+.head-top > div > figure > img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .text1 > h1 {
+    font-size: 7vw;
+  }
+}
+@media screen and (min-width: 768px) {
+  .text1 > h1 {
+    font-size: 9vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .text1 > h1 {
+    font-size: 10vw;
+  }
+}
+
+.line {
+  height: 30px;
+  overflow: hidden;
+  width: 3000px;
+}
+.line > .marquee {
+  width: 100%;
+}
+.line > .marquee > .marquee-items {
+  display: flex;
+  width: 12px;
+  height: 8px;
+  background-color: white;
+  margin: 10px 5px;
+  animation-name: marqueeline;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes marqueeline {
+  100% {
+    transform: translateX(-200px);
+  }
+}
+.pictures > div:nth-of-type(2) {
+  height: 700px;
+}
+
+.br-slider {
+  transform: translateX(-200px) rotateZ(-10deg);
+}
+@media screen and (max-width: 768px) {
+  .br-slider {
+    width: 2000px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .br-slider {
+    width: 2000px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .br-slider {
+    width: 4000px;
+  }
+}
+
+.slider {
+  height: 400px;
+  width: 1700px;
+}
+.slider > figure {
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-name: pic;
+  left: 100%;
+}
+.slider > figure:nth-of-type(2) {
+  animation-delay: 1.6s;
+}
+.slider > figure:nth-of-type(3) {
+  animation-delay: 3.2s;
+}
+.slider > figure:nth-of-type(4) {
+  animation-delay: 4.8s;
+}
+.slider > figure:nth-of-type(5) {
+  animation-delay: 6.4s;
+}
+
+@keyframes pic {
+  to {
+    left: -100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .album2 {
+    margin: 200px auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .album2 {
+    margin: 200px auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .album2 {
+    margin: 400px auto;
+  }
+}
+.album2 > div {
+  overflow: hidden;
+}
+@media screen and (max-width: 576px) {
+  .album2 > div {
+    height: 1000px;
+  }
+}
+@media screen and (min-width: 577px) {
+  .album2 > div {
+    height: 1200px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .album2 > div {
+    height: 500px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .album2 > div {
+    height: 600px;
+    overflow: visible;
+  }
+}
+.album2 > div > figure {
+  transition: 0.5s;
+}
+.album2 > div > figure > figcaption {
+  left: -5%;
+  bottom: 2%;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .album2 > div > figure > figcaption {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .album2 > div > figure > figcaption {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .album2 > div > figure > figcaption {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .album2 > div > figure:nth-of-type(1) {
+    transform: rotateZ(0deg) translateX(0);
+  }
+}
+@media screen and (min-width: 768px) {
+  .album2 > div > figure:nth-of-type(1) {
+    transform: rotateZ(0deg) translateX(0);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .album2 > div > figure:nth-of-type(1) {
+    transform: rotateZ(10deg) translateX(50px);
+  }
+  .album2 > div > figure:nth-of-type(1):hover {
+    transform: rotateZ(0deg) translateX(50px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .album2 > div > figure:nth-of-type(2) {
+    transform: rotateZ(0deg) translateY(0) translateX(0);
+  }
+}
+@media screen and (min-width: 768px) {
+  .album2 > div > figure:nth-of-type(2) {
+    transform: rotateZ(0deg) translateY(0) translateX(0);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .album2 > div > figure:nth-of-type(2) {
+    transform: rotateZ(-10deg) translateY(200px) translateX(0);
+  }
+  .album2 > div > figure:nth-of-type(2):hover {
+    transform: rotateZ(0deg) translateY(200px) translateX(0);
+  }
+}
+
+.videoclass {
+  transform: translateY(-100px);
+}
+.videoclass .box {
+  width: 15%;
+  height: 30%;
+}
+.videoclass .box:nth-of-type(1) {
+  top: 5%;
+  left: 5%;
+}
+.videoclass .box:nth-of-type(2) {
+  top: 5%;
+  right: 5%;
+}
+.videoclass .box:nth-of-type(3) {
+  bottom: 5%;
+  right: 5%;
+}
+.videoclass .box:nth-of-type(4) {
+  bottom: 5%;
+  left: 5%;
+}
+.videoclass .imgclass {
+  width: 10%;
+  top: 10%;
+  right: 7%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.videoclass .circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  top: 10%;
+  left: 7%;
+}
+.videoclass .rec {
+  top: 10%;
+  left: 10%;
+}
+
+.marq {
+  width: 200%;
+  transform: translateX(-200px);
+  border-style: dashed;
+  border-width: 6px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer > div > ul > li {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=master.css.map */
