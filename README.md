@@ -1,7 +1,7 @@
 # project7-Photography Portofil oWerbsite
 ![project7](https://github.com/katayoon-faraji-web/project7/assets/144775981/271f37bc-8aad-49d5-a940-d4c37a4896aa)
 
-- [Demo Project](https://katayoon-faraji-web.github.io/project7)
+- [Demo Project](https://katayoon-faraji-web.github.io/project7-PhotographyPortofiloWerbsite/)
 
 - Developed by katayoon faraji
 
